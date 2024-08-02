@@ -1,6 +1,7 @@
-Claro, aqui está o conteúdo em formato Markdown (.md):
+Claro, aqui está o texto sem o formato Markdown:
 
-```markdown
+---
+
 # ProjetoCadastroNew
 
 ## Descrição
@@ -18,7 +19,7 @@ Este projeto é uma aplicação web desenvolvida em PHP, seguindo os conceitos d
 
 Certifique-se de que você tenha PHP 7.0 ou superior instalado no seu sistema. Você pode verificar a versão do PHP com o seguinte comando:
 
-```bash
+```
 php -v
 ```
 
@@ -110,6 +111,5 @@ ProjetoCadastroNew/
 
 - Certifique-se de que a porta do MySQL no XAMPP está configurada para 3307, conforme definido no arquivo `Conexao.php`. Caso contrário, atualize a porta no arquivo de configuração do banco de dados.
 - O arquivo `database/banco_projeto.sql` deve ser importado no phpMyAdmin para que o banco de dados esteja pronto para uso.
-```
 
-Você pode copiar e colar esse conteúdo em um arquivo chamado `README.md` para documentar o seu projeto.
+---

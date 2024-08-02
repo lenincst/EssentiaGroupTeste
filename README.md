@@ -1,5 +1,3 @@
-Claro, aqui está o texto sem o formato Markdown:
-
 ---
 
 # ProjetoCadastroNew
@@ -15,24 +13,32 @@ Este projeto é uma aplicação web desenvolvida em PHP, seguindo os conceitos d
 
 ## Configuração e Execução
 
-### 1. Verifique a versão do PHP
+### 1. Clonar o Repositório
+
+Clone o repositório do projeto usando o seguinte comando:
+
+```bash
+git clone https://github.com/lenincst/EssentiaGroupTeste.git
+```
+
+### 2. Verifique a versão do PHP
 
 Certifique-se de que você tenha PHP 7.0 ou superior instalado no seu sistema. Você pode verificar a versão do PHP com o seguinte comando:
 
-```
+```bash
 php -v
 ```
 
-### 2. Instale o XAMPP
+### 3. Instale o XAMPP
 
 Baixe e instale o XAMPP a partir do [site oficial](https://www.apachefriends.org/index.html). O XAMPP inclui o servidor Apache e MySQL, que são necessários para executar o projeto.
 
-### 3. Configure o XAMPP
+### 4. Configure o XAMPP
 
 - Inicie o XAMPP e certifique-se de que o Apache e o MySQL estão em execução.
 - Configure o MySQL para usar a porta 3307, se necessário. Caso contrário, ajuste a porta no arquivo de configuração do banco de dados.
 
-### 4. Configure as credenciais do banco de dados
+### 5. Configure as credenciais do banco de dados
 
 Localize o arquivo `model/Conexao.php` no seu projeto e atualize as credenciais do banco de dados conforme necessário:
 
@@ -45,9 +51,9 @@ class Conexao {
         if (self::$conexao == null) {
             $host = "localhost";
             $username = "root";
-            $password = "@D2vveaax"; // Atualize se necessário
+            $password = "COLOQUE SUA SENHA"; 
             $dbname = "banco_projeto";
-            $port = 3307; // Certifique-se de que esta porta está correta
+            $port = 3307; CERTIFIQUE-SE QUE A PORTA ESTÁ CORRETA
 
             self::$conexao = new mysqli($host, $username, $password, $dbname, $port);
             if (self::$conexao->connect_error) {
@@ -60,7 +66,7 @@ class Conexao {
 ?>
 ```
 
-### 5. Importe o banco de dados
+### 6. Importe o banco de dados
 
 1. Abra o phpMyAdmin acessível através do XAMPP (geralmente em `http://localhost/phpmyadmin`).
 2. Crie um novo banco de dados chamado `banco_projeto`.
@@ -68,7 +74,7 @@ class Conexao {
 4. Selecione o arquivo `database/banco_projeto.sql` localizado na pasta `database` do projeto.
 5. Clique em "Executar" para importar o banco de dados.
 
-### 6. Execute o projeto
+### 7. Execute o projeto
 
 Depois de configurar o banco de dados e atualizar as credenciais, você pode acessar o projeto localmente através do navegador. Vá para:
 

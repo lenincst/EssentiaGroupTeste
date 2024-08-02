@@ -10,7 +10,6 @@
     <h2>Página Inicial - Processo Seletivo</h2>
 
     <?php
-    // Verifica se há uma mensagem de status na URL
     if (isset($_GET['status'])) {
         $status = $_GET['status'];
         if ($status === 'success') {

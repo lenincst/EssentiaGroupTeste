@@ -4,12 +4,13 @@
 
 ## Descrição
 
-Este projeto é uma aplicação web desenvolvida em PHP, seguindo os conceitos de Orientação a Objetos, DRY e S.O.L.I.D. O código utiliza a arquitetura MVC (Model-View-Controller) e foi estruturado para ser executado localmente com o XAMPP.
+Este projeto é um teste técnico para o Desafio de Vaga de Desenvolvedor(a) - (Full Stack) da empresa Essentia Group. É uma aplicação web desenvolvida em PHP puro, seguindo os conceitos de Orientação a Objetos, DRY e S.O.L.I.D. O código utiliza a arquitetura MVC e foi estruturado para ser executado localmente com o XAMPP.
 
 ## Requisitos
 
-- PHP 7.0 ou superior
+- PHP 8.0 ou superior
 - XAMPP (inclui Apache e MySQL)
+- Git (para clonar o repositório)
 
 ## Configuração e Execução
 
@@ -23,7 +24,7 @@ git clone https://github.com/lenincst/EssentiaGroupTeste.git
 
 ### 2. Verifique a versão do PHP
 
-Certifique-se de que você tenha PHP 7.0 ou superior instalado no seu sistema. Você pode verificar a versão do PHP com o seguinte comando:
+Certifique-se de que você tenha PHP 8.0 ou superior instalado no seu sistema. Você pode verificar a versão do PHP com o seguinte comando:
 
 ```bash
 php -v

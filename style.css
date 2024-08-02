@@ -1,0 +1,109 @@
+/* Define a aparência da página e centraliza o conteúdo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+.back-button {
+    margin-top: 20px;
+}
+
+.back-button button {
+    background-color: #2196F3;
+}
+
+.back-button button:hover {
+    background-color: #0b7dda;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table td, .data-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Classe para pré-visualização de imagens */
+.image-preview {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Classe para pré-visualização de miniaturas de imagens */
+.image-preview-mini {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Classe para o contêiner de nome e imagem */
+.name-image {
+    display: flex;
+    align-items: center;
+}
+
+/* Mensagens de sucesso e erro */
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
